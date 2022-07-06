@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/student_management_sys.dir/src/Student.cpp.o"
   "CMakeFiles/student_management_sys.dir/src/Student.cpp.o.d"
+  "CMakeFiles/student_management_sys.dir/src/StudentRepo.cpp.o"
+  "CMakeFiles/student_management_sys.dir/src/StudentRepo.cpp.o.d"
   "CMakeFiles/student_management_sys.dir/src/ViewManager.cpp.o"
   "CMakeFiles/student_management_sys.dir/src/ViewManager.cpp.o.d"
   "CMakeFiles/student_management_sys.dir/src/main.cpp.o"

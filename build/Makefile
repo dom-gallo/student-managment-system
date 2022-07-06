@@ -153,6 +153,30 @@ src/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_management_sys.dir/build.make CMakeFiles/student_management_sys.dir/src/Student.cpp.s
 .PHONY : src/Student.cpp.s
 
+src/StudentRepo.o: src/StudentRepo.cpp.o
+.PHONY : src/StudentRepo.o
+
+# target to build an object file
+src/StudentRepo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_management_sys.dir/build.make CMakeFiles/student_management_sys.dir/src/StudentRepo.cpp.o
+.PHONY : src/StudentRepo.cpp.o
+
+src/StudentRepo.i: src/StudentRepo.cpp.i
+.PHONY : src/StudentRepo.i
+
+# target to preprocess a source file
+src/StudentRepo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_management_sys.dir/build.make CMakeFiles/student_management_sys.dir/src/StudentRepo.cpp.i
+.PHONY : src/StudentRepo.cpp.i
+
+src/StudentRepo.s: src/StudentRepo.cpp.s
+.PHONY : src/StudentRepo.s
+
+# target to generate assembly for a file
+src/StudentRepo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_management_sys.dir/build.make CMakeFiles/student_management_sys.dir/src/StudentRepo.cpp.s
+.PHONY : src/StudentRepo.cpp.s
+
 src/ViewManager.o: src/ViewManager.cpp.o
 .PHONY : src/ViewManager.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/Student.o"
 	@echo "... src/Student.i"
 	@echo "... src/Student.s"
+	@echo "... src/StudentRepo.o"
+	@echo "... src/StudentRepo.i"
+	@echo "... src/StudentRepo.s"
 	@echo "... src/ViewManager.o"
 	@echo "... src/ViewManager.i"
 	@echo "... src/ViewManager.s"
