@@ -18,3 +18,11 @@ std::unordered_map<int, Student*> StudentRepo::getAll()
 {
     return this->storage;
 }
+Student* StudentRepo::getById(const int &i)
+{
+    if(i < 0)
+    {
+        return nullptr;
+    }
+    return this->storage[i];
+}

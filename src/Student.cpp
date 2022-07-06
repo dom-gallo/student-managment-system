@@ -10,7 +10,6 @@ std::string Student::getName()
 {
     return this->name;
 }
-
 int Student::gen_id(const std::string &s)
 {
     int tmp = 0;

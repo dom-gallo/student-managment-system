@@ -10,6 +10,7 @@ public:
     StudentRepo();
     std::unordered_map<int, Student*> getAll();
     bool addStudent(Student* s);
+    Student& getById(const int &i);
 private:
     std::unordered_map<int, Student*> storage;
 };
