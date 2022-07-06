@@ -26,3 +26,17 @@ Student* StudentRepo::getById(const int &i)
     }
     return this->storage[i];
 }
+Student* StudentRepo::findByName(const std::string &s)
+{
+    std::unordered_map<int, Student*>::iterator it = this->storage.begin();
+    while(it != this->storage.end())
+    {
+        Student* st = it->second;
+        if(st->getName() == s)
+        {
+            return st;
+        }
+        it++;
+    }
+    return nullptr;
+}
