@@ -28,15 +28,21 @@ int main(int argc, char *argv[])
     if(s2 == nullptr)
     {
         std::cout << "Could not find student." << std::endl;
+    } else 
+    {
+        std::cout << "Found student with name: " << s2->getName() << std::endl;
     }
-    std::cout << "Found student with name: " << s2->getName() << std::endl;
+    
     // finding by id test
     Student *s3 = sr->getById(3302);
     if(!s3)
     {
         std::cout << "Could not find student with id 3302" << std::endl;
+    } else 
+    {
+        std::cout << "Found student with ID: 3302 " << s3->getName() << std::endl;
     }
-    std::cout << "Found student with ID: 3302 " << s3->getName() << std::endl;
+    
 
 
     do 
