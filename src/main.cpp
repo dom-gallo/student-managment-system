@@ -38,11 +38,12 @@ int main(int argc, char *argv[])
     }
     std::cout << "Found student with ID: 3302 " << s3->getName() << std::endl;
 
-    while(sys_state != SystemState::Exit)
+
+    do 
     {
         VM->printOptions();
         sys_state = VM->getInput();
-    }
+    } while (sys_state != SystemState::Exit);
 
     return 0;
 }
