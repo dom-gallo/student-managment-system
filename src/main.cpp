@@ -43,8 +43,6 @@ int main(int argc, char *argv[])
         std::cout << "Found student with ID: 3302 " << s3->getName() << std::endl;
     }
     
-
-
     do 
     {
         VM->printOptions();
